@@ -8,6 +8,7 @@ public class ServiceTest {
     @Test
     public void testGreetingService() {
 
+
         TestService testService = new TestService();
         Assertions.assertEquals("hello sam", testService.greeting("sam"));
     }
